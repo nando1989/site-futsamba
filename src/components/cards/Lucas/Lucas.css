@@ -1,0 +1,12 @@
+.img-lc{
+  width: 400px;
+  height: 600px;
+  display: flex;
+flex-direction: column;
+align-items: center;
+  }
+  .img-lucas {
+    width: 400px;
+    height: 600px;
+    border-radius: 30px;
+  }

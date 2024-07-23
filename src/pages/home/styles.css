@@ -1,0 +1,90 @@
+
+.container-home{
+  width: 100%;
+  height: 950px;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.img-logo {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 67px;
+
+}
+.logo {
+  width: 700px;
+  height: 300px;
+
+}
+
+
+.img-home {
+  width: 100%;
+  height: 1000px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.home{
+  width: 1460px;
+  height: 1000px; 
+  align-items: center;
+  justify-content: center;
+
+}
+/* Menu sanduiche */
+
+@media (max-width: 768px) {
+ 
+  .img-logo {
+    width: 100%;
+    height: 245px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    padding-right: 55px;
+    padding-bottom: 15px;
+    padding-top: 21px;
+ 
+    
+    
+  }
+  .logo {
+    width: 100%;
+    height: 225px;
+    margin-bottom: 40px;
+
+  }
+  
+  
+  .img-home {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  
+  .home{
+    width: 100%;;
+    height: 300px;
+
+  }
+
+  .container-home{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+  }
+ 
+}
