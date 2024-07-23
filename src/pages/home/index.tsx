@@ -1,16 +1,10 @@
-import React from 'react'
+/* eslint-disable jsx-a11y/alt-text */
+
 import './styles.css'
 import Futsamba from './images/futsamba-103.png'
 import Logo from './images/logoFut.png'
-import Navbar from '../../components/navbar'
-import Footer from '../../components/footer'
 import Burger from '../../components/burger'
-import Bio from '../biografia'
-import Agenda from '../agenda'
-import Contato from '../contato'
-import Whatsapp from './Whatsapp.png'
-import Facebook from './facebook.png'
-import instagram from './instagram.png'
+
 
 
 const Home = () => {

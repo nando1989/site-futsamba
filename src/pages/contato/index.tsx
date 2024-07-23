@@ -1,6 +1,6 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import Futsamba2 from './images/futsamba-99.png'
-import Logo from './images/logoFut.png'
 import Burger from '../../components/burger'
 import './styles.css'
 import Whatsapp from './images/Whatsapp.png'
