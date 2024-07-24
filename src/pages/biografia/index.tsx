@@ -15,7 +15,7 @@ const Bio = () => {
       <div className='container-bio'>
         <div className='container-biograph'>
         
-        <div className='container-text'>
+        <div className='container-tex'>
           <h1 className='title-bio'><strong>Nossa história</strong></h1>
             <p>O<strong> FUTSAMBA </strong>é um grupo de samba e pagode originário da
               cidade de Teresópolis. Com uma reputação sólida e uma base de fãs
