@@ -4,6 +4,7 @@ import './styles.css'
 import Futsamba from './images/futsamba-103.png'
 import Logo from './images/logoFut.png'
 import Burger from '../../components/burger'
+import Bio from '../biografia'
 
 
 
@@ -20,6 +21,7 @@ const Home = () => {
           <img className='home' src={Futsamba} />
         </div>
       </div >
+      <Bio/>
       
       </>
 )
