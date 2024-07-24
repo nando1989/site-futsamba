@@ -29,11 +29,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 720px;
+  height: 520px;
 }
 .container-text {
   width: 80%;
-  height: 700px;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,7 +55,7 @@ h3{
   color: #44280d;
 }
 p{
-  font-size: 40px;
+  font-size: 30px;
   color: #44280d;
   
 }
@@ -67,6 +67,8 @@ p{
   justify-content: space-evenly;
   
 }
+
+
 
 /* Mobile */
 

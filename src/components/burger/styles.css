@@ -40,7 +40,7 @@ nav{
 
 .menu {
   width: 450px;
-  height: 20vh;
+  height: 28vh;
   background-color: bisque;
   top: 10;
   z-index: -1;
@@ -52,7 +52,6 @@ nav{
 
 .list {
   color:#44280d;
-  border-right: 2px solid white; 
   display:flex;
   font-size: 45px;
   text-decoration: none;
