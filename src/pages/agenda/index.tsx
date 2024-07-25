@@ -22,37 +22,61 @@ const Agenda = () => {
           </div>
         </div>
         <div className='container-adress'>
-        <div className='container-day-month-adress'>
-          <div className='container-day'>
-            <h3>03</h3>
+          <div className='container-day-month-adress'>
+            <div className='container-day'>
+              <h3>03</h3>
+            </div>
+            <div className='container-month'><h3>AGO</h3></div>
           </div>
-          <div className='container-month'><h3>AGO</h3></div>
-        </div>
-          
-        </div>
 
-      </div>
+        </div>
 
         <div className='container-mes-ano'>
           <h3>Agosto 2024</h3>
 
         </div>
+
+
         <div className='container-border-botton-white'>
           <div className='container-border-botton-gray'>
             <div className='container-border-botton-orange'></div>
           </div>
         </div>
         <div className='container-adress'>
-        <div className='container-day-month-adress'>
-          <div className='container-day'>
-            <h3>03</h3>
+          <div className='container-day-month-adress'>
+            <div className='container-day'>
+              <h3>03</h3>
+            </div>
+            <div className='container-month'><h3>AGO</h3></div>
           </div>
-          <div className='container-month'><h3>AGO</h3></div>
+
         </div>
-          
+        <div className='container-mes-ano'>
+          <h3>Agosto 2024</h3>
+
         </div>
 
-      
+        <div className='container-border-botton-white'>
+          <div className='container-border-botton-gray'>
+            <div className='container-border-botton-orange'></div>
+          </div>
+        </div>
+        <div className='container-adress'>
+          <div className='container-day-month-adress'>
+            <div className='container-day'>
+              <h3>03</h3>
+            </div>
+            <div className='container-month'><h3>AGO</h3></div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+
+
 
     </>
   )
