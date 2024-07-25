@@ -46,17 +46,17 @@ const Bio = () => {
             <PersonCard
               imgSrc={ImgRenan}
               name='Renan Pereira'
-              instagram='@charlesrodrigues'
+              instagram='@renanfutsamba'
             />
             <PersonCard
               imgSrc={ImgLucas}
               name='Lucas Zimbrão'
-              instagram='@charlesrodrigues'
+              instagram='@lucaszimbrao'
             />
             <PersonCard
               imgSrc={ImgRodolfo}
               name='Rodolfo Macário'
-              instagram='@charlesrodrigues'
+              instagram='@rodolphomacario3'
             />
           </div>
         </div >
