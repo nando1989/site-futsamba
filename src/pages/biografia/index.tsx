@@ -1,4 +1,3 @@
-import React from 'react'
 import './styles.css'
 import PersonCard from '../../components/personCard'
 import ImgCharles from '../../assets/img/charles.jpg'
@@ -6,7 +5,6 @@ import ImgRoma from '../../assets/img/roma.jpg'
 import ImgRenan from '../../assets/img/renan.jpg'
 import ImgLucas from '../../assets/img/lucas.jpg'
 import ImgRodolfo from '../../assets/img/rodolfo.jpg'
-import Burger from '../../components/burger'
 
 const Bio = () => {
   return (

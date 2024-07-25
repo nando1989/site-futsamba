@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className='navbar-container'>
 
         <div className={`navbar-container  ${showMenu ? 'show' : ''}`}> <ul>
-          <Link to="/" className='list'><li>Home</li></Link>
+          <Link to='/Home' className='list'><li>Home</li></Link>
           <Link to='/Bio' className='list'><li>Biografia</li></Link>
           <Link to='/Agenda' className='list'><li>Agenda</li></Link>
           <Link to='/' className='list'><li></li>Home</Link>
