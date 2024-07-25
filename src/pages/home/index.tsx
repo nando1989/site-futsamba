@@ -5,6 +5,7 @@ import Futsamba from './images/futsamba-103.png'
 import Logo from './images/logoFut.png'
 import Burger from '../../components/burger'
 import Bio from '../biografia'
+import Agenda from '../agenda'
 
 
 
@@ -22,6 +23,7 @@ const Home = () => {
         </div>
       </div >
       <Bio/>
+      <Agenda/>
       
       </>
 )
