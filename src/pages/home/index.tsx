@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import './styles.css'
 import Futsamba from './images/futsamba-103.png'
 import Logo from './images/logoFut.png'
