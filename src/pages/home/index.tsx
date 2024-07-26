@@ -15,11 +15,11 @@ const Home = () => {
       <Burger />
       < div className='container-home'>
         <div className='img-logo'>
-          <img className='logo' src={Logo} />
+          <img className='logo' src={Logo} alt='logo'/>
         </div>
 
         <div className='img-home'>
-          <img className='home' src={Futsamba} />
+          <img className='home' src={Futsamba} alt='grupo'/>
         </div>
       </div >
       <Bio/>
