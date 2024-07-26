@@ -70,10 +70,10 @@ ul{
 
 }
 .icons{
-  width: 60px;
+  width: 90%;
   height: 200px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   
@@ -92,4 +92,52 @@ h3{
   align-items: center;
   justify-content: center;
 
+}
+
+@media (max-width: 768px) {
+  .container-contact {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(209, 207, 204);
+  }
+  .date {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    background-color: rgb(209, 207, 204);
+    
+  
+  }
+  .icons{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.whatsapp{
+  width: 35px;
+  height: 35px;
+  
+
+}
+
+.icon-contato{
+  width: 45px;
+  height: 45px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 }
