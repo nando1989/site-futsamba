@@ -6,18 +6,17 @@ import ImgRenan from '../../assets/img/renan.jpg'
 import ImgLucas from '../../assets/img/lucas.jpg'
 import ImgRodolfo from '../../assets/img/rodolfo.jpg'
 
+
 const Bio = () => {
   return (
     <div className='container-bio'>
       <div className='container-biograph'>
-
-        <div className='container-tex'>
-          <div className='contanier-title'>
-            <h1 className='title-bio'><strong>Nossa história</strong></h1>
+          <div className='container-title'>
+            <h1>Nossa história</h1>
           </div>
 
           <div className='container-text'>
-            <p>O<strong> FUTSAMBA </strong>é um grupo de samba e pagode originário da
+            <p><strong> FUTSAMBA </strong>é um grupo de samba e pagode originário da
               cidade de Teresópolis. Com uma reputação sólida e uma base de fãs
               fiel, somos conhecidos por nossas apresentações energéticas e
               envolventes. Nossa paixão pela música e nosso amor pela cultura do
@@ -57,11 +56,14 @@ const Bio = () => {
               instagram='@rodolphomacario3'
             />
           </div>
-        </div >
+       
 
 
       </div>
+      
       </div>
+
+      
       )
 }
 

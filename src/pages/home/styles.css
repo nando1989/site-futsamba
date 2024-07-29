@@ -1,7 +1,9 @@
 
 .container-home{
   width: 100%;
-  height: 950px;
+  height: 1300px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
  
@@ -9,7 +11,7 @@
 
 .img-logo {
   width: 100%;
-  height: 140px;
+  height: 240px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,7 +67,6 @@
 
   }
   
-  
   .img-home {
     width: 100%;
     height: 280px;
@@ -75,16 +76,15 @@
   }
   
   .home{
-    width: 100%;;
+    width: 100%;
     height: 250px;
-    display: flex;
-    justify-content: end;
+   
 
   }
 
   .container-home{
     width: 100%;
-    height: 100%;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content:space-between;

@@ -1,12 +1,11 @@
 .container-bio {
   width: 100%;
-  height: 691px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
-  background-image: url(https://ortodontista.net/wp-content/uploads/2018/05/background-branco-1.jpg);
-  background-size: cover;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: start;
+  background-color: rgb(209, 207, 204);
 }
 
 .container-title {
@@ -15,136 +14,100 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
-  height: 500px;
+  height: 90px;
   font-size: 40px;
   margin-bottom: 50px;
   padding: 50px;
 }
 
-
 .container-biograph {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 520px;
-}
-.container-text {
-  width: 80%;
-  height: 600px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 40px;
-  
-}
-div 
+  width: 100%;
+  height: 480px;
 
-h1{
-  color: #44280d;
-  font-size: 100px;
-  height: 100px;
 }
+
+.container-text {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px; 
+}
+
+
+
+
 h2{
   color: #44280d;
   font-size: 25px;
 }
+
 h3{
   font-size: 20px;
   color: #44280d;
 }
+
 p{
   font-size: 30px;
   color: #44280d;
-  
+  text-align: center; 
 }
 
 .container-cards {
   width: 100%;
-  height: 1200px;
+  height: 500px;
   display: flex;
   justify-content: space-evenly;
-  
 }
-
-
 
 /* Mobile */
 
 @media (max-width: 768px) {
   .container-bio {
     width: 100%;
-    height: 3180px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    
-  }
-  .title-bio {
-    color: #44280d;
-    width: 100%;
-    height: 100px;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
+    height: 3250px; 
+    background-color: rgb(209, 207, 204);
+   }
   .container-biograph {
     width: 100%;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    text-align: center;
-    
-
+    height: 2180px;
   }
-
-  .container-tex {
+  .container-text {
     width: 100%;
-    height: 3160px;
+    height: 350px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    background-color: bisque;
-    padding: 0 10px;
-    
+    padding: 20px; 
   }
   .container-title {
     width: 100%;
-    height: 270px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 8px;
-    font-size: 30px;
-
   }
 
-  .container-cards {
+  .title-bio {
     width: 100%;
-    height: 4800px;
-    display: flex;
-    align-items: center;
+    height: 40px;
+    }
+   .container-cards {
+    width: 100%;
+    height: 2800px;
     flex-direction: column;
-    justify-content: flex-start;
-    
-   
-  }
-  
-  h2 {
+    }
+  .container-title h1{
     font-size: 30px;
-  }
-  h3{
-
+    color: #020202;
   }
   p {
     font-size: 20px;
+    text-align: center;
+    color: #020202;
   }
   
 

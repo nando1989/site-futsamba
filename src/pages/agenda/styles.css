@@ -2,57 +2,122 @@
 
 .container-schedule {
   width: 100%;
-  height: 1366px;
+  height: 605px;
   display: flex;
-  align-items: center;
-  justify-content: start;
-
-}
-.container-title-agenda{
-  width: 100%;
-  height: 200px;
-  background-color: aqua;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.container-schedule h1 {
-  font-size: 40px;
-
-}
-
-.container-date {
-  width: 100%;
-  display: flex;
-  justify-content:flex-start;
   flex-direction: column;
   align-items: center;
-  margin-top: 70px;
-  height: 250px;
+  justify-content: center;
   
-
-
 }
 
-.date {
-  width: 100%;
-  height: 150px;
+.container-title-schedule{
+  width: 70%;
+  height: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
-  
-  
- 
-
 }
-.local {
-  width: 100%;
-  height: 50px;
+
+.container-mes-ano{
+  width: 70%;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 150px;
+}
+
+.container-mes-ano h3{
+  font-size: 20px;
+}
+
+.container-border-botton-white{
+  width: 70%;
+  height: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.container-border-botton-gray{
+  width: 80%;
+  height: 5px;
+  background-color: rgb(216, 216, 216);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-border-botton-orange{
+  width: 40%;
+  height: 5px;
+  background-color: rgb(230, 134, 56);
+  border-radius: 30px;
+}
+
+.container-adress{
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+
+}
+
+.container-day-month-adress{
+  width: 60%;
+  height: 35px;
+  background-color: rgb(250, 209, 134);
+  border-radius: 5px;
+  display: flex;
+
+}
+
+.container-day{
+  width: 45%;
+  height: 35px;
+  background-color: rgb(233, 164, 36);
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  border-radius:   5px 0 0 5px;
+  
+  
+
+  
+}
+
+.container-day h3{
+  color: white;
+  font-size: 25px;
+}
+
+.container-month{
+  width: 55%;
+  height: 35px;
+  background-color: rgb(250, 209, 134);
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  border-radius: 0 05px 05px 0 ;
+  
+
+}
+
+.container-month h3{
+  color: white;
+  font-size: 25px;
+}
+.container-local{
+  
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
 }
 
 Bio.h2{
@@ -71,14 +136,14 @@ Bio.h3{
     height: 605px;
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: start;
+    align-items: center;
+    justify-content: center;
     
   }
 
   .container-title-schedule{
     width: 100%;
-    height: 140px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -191,6 +256,9 @@ Bio.h3{
     color: rgb(54, 30, 30);
     
   
+}
+.container-title-schedule h1 {
+  font-size: 40px;
 }
   
 }
