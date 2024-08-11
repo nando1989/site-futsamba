@@ -1,24 +1,46 @@
-
-
 .container-schedule {
   width: 100%;
-  height: 605px;
+  height: 705px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+  padding-bottom: 10px;
 }
 
-.container-title-schedule{
+.container-title-schedule {
   width: 70%;
-  height: 140px;
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.container-mes-ano{
+.container-title-schedule h1 {
+  font-size: 60px;
+}
+
+.botaoComprar {
+  width: 190px;
+  height: 70px;
+  border: none;
+  background-color: rgb(92, 212, 92);
+  border-radius: 15px;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.botaoComprar:hover {
+  width: 205px;
+  height: 90px;
+  border: none;
+  background-color: rgb(230, 255, 8);
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.container-mes-ano {
   width: 70%;
   height: 60px;
   display: flex;
@@ -26,11 +48,11 @@
   justify-content: center;
 }
 
-.container-mes-ano h3{
+.container-mes-ano h3 {
   font-size: 20px;
 }
 
-.container-border-botton-white{
+.container-border-botton-white {
   width: 70%;
   height: 5px;
   display: flex;
@@ -39,7 +61,7 @@
   margin-bottom: 15px;
 }
 
-.container-border-botton-gray{
+.container-border-botton-gray {
   width: 80%;
   height: 5px;
   background-color: rgb(216, 216, 216);
@@ -49,88 +71,77 @@
   justify-content: center;
 }
 
-.container-border-botton-orange{
+.container-border-botton-orange {
   width: 40%;
   height: 5px;
   background-color: rgb(230, 134, 56);
   border-radius: 30px;
 }
 
-.container-adress{
+.container-adress {
   width: 100%;
-  height: 75px;
+  height: 125px;
   display: flex;
-  align-items:center;
-  justify-content:center;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-
 }
 
-.container-day-month-adress{
+.container-day-month-adress {
   width: 60%;
   height: 35px;
   background-color: rgb(250, 209, 134);
   border-radius: 5px;
   display: flex;
-
 }
 
-.container-day{
+.container-day {
   width: 45%;
   height: 35px;
   background-color: rgb(233, 164, 36);
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
-  border-radius:   5px 0 0 5px;
-  
-  
-
-  
+  border-radius: 5px 0 0 5px;
 }
 
-.container-day h3{
+.container-day h3 {
   color: white;
   font-size: 25px;
 }
 
-.container-month{
+.container-month {
   width: 55%;
   height: 35px;
   background-color: rgb(250, 209, 134);
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
-  border-radius: 0 05px 05px 0 ;
-  
-
+  border-radius: 0 05px 05px 0;
 }
 
-.container-month h3{
+.container-month h3 {
   color: white;
   font-size: 25px;
 }
-.container-local{
-  
-    width: 100%;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
+
+.container-local {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-Bio.h2{
-  font-size: 120px;
-}
-
-Bio.h3{
-  font-size: 90px;
+.container-local h3 {
+  font-size: 30px;
+  width: 300px;
 }
 
 @media (max-width: 768px) {
-  
-  
+
+
   .container-schedule {
     width: 100%;
     height: 605px;
@@ -138,10 +149,10 @@ Bio.h3{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
   }
 
-  .container-title-schedule{
+  .container-title-schedule {
     width: 100%;
     height: 100px;
     display: flex;
@@ -149,7 +160,7 @@ Bio.h3{
     justify-content: center;
   }
 
-  .container-mes-ano{
+  .container-mes-ano {
     width: 100%;
     height: 60px;
     display: flex;
@@ -157,11 +168,11 @@ Bio.h3{
     justify-content: center;
   }
 
-  .container-mes-ano h3{
+  .container-mes-ano h3 {
     font-size: 20px;
   }
-  
-  .container-border-botton-white{
+
+  .container-border-botton-white {
     width: 100%;
     height: 5px;
     display: flex;
@@ -170,7 +181,7 @@ Bio.h3{
     margin-bottom: 15px;
   }
 
-  .container-border-botton-gray{
+  .container-border-botton-gray {
     width: 80%;
     height: 5px;
     background-color: rgb(216, 216, 216);
@@ -179,86 +190,97 @@ Bio.h3{
     align-items: center;
     justify-content: center;
   }
-  
-  .container-border-botton-orange{
+
+  .container-border-botton-orange {
     width: 40%;
     height: 5px;
     background-color: rgb(230, 134, 56);
     border-radius: 30px;
   }
 
-  .container-adress{
+  .container-adress {
     width: 100%;
     height: 75px;
     display: flex;
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-  
   }
 
-  .container-day-month-adress{
+  .container-day-month-adress {
     width: 60%;
     height: 35px;
     background-color: rgb(250, 209, 134);
     border-radius: 5px;
     display: flex;
-
   }
 
-  .container-day{
+  .container-day {
     width: 45%;
     height: 35px;
     background-color: rgb(233, 164, 36);
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
-    border-radius:   5px 0 0 5px;
-    
-    
-
-    
+    border-radius: 5px 0 0 5px;
   }
 
-  .container-day h3{
+  .container-day h3 {
     color: white;
     font-size: 25px;
   }
 
-  .container-month{
+  .container-month {
     width: 55%;
     height: 35px;
     background-color: rgb(250, 209, 134);
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
-    border-radius: 0 05px 05px 0 ;
-    
-
+    border-radius: 0 05px 05px 0;
   }
 
-  .container-month h3{
+  .container-month h3 {
     color: white;
     font-size: 25px;
   }
-  .container-local{
-    
-      width: 100%;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    
+
+  .container-local {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
-  .container-local h3{
-    font-size: 12px;
+  .container-local h3 {
     color: rgb(54, 30, 30);
-    
-  
-}
-.container-title-schedule h1 {
-  font-size: 40px;
-}
-  
+    font-size: 20px;
+    width: 300px;
+  }
+
+  .container-title-schedule h1 {
+    font-size: 40px;
+  }
+  .botaoComprar {
+    width: 130px;
+    height: 70px;
+    border: none;
+    background-color: rgb(92, 212, 92);
+    border-radius: 15px;
+    color: aliceblue;
+    font-size: 13px;
+  }
+
+  .botaoComprar:hover {
+    width: 130px;
+    height: 70px;
+    border: none;
+    background-color: rgb(4, 128, 20);
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+  }
+
 }

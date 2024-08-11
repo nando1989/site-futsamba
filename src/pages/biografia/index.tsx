@@ -33,7 +33,7 @@ const Bio = () => {
           <div className='container-cards'>
             <PersonCard
               imgSrc={ImgCharles}
-              name='Charles Silvestre'
+              name='Charles Rodrigues'
               instagram='@charlesrodrigues' />
             <PersonCard
               imgSrc={ImgRoma}

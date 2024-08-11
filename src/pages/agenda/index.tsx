@@ -24,12 +24,13 @@ const Agenda = () => {
       <div className='container-adress'>
         <div className='container-day-month-adress'>
           <div className='container-day'>
-            <h3>03</h3>
+            <h3>25</h3>
           </div>
           <div className='container-month'><h3>AGO</h3></div>
         </div>
         <div className='container-local'>
-          <h3>Sesc/Teresópolis</h3>
+          <h3>Panela do Futsamba</h3>
+          <button className='botaoComprar'>Comprar Ingresso</button>
         </div>
       </div>
 
@@ -53,6 +54,7 @@ const Agenda = () => {
         </div>
         <div className='container-local'>
           <h3>Sesc/Teresópolis</h3>
+          <button className='botaoComprar'>Entrada franca</button>
         </div>
       </div>
 
@@ -72,7 +74,8 @@ const Agenda = () => {
           <div className='container-month'><h3>OUT</h3></div>
         </div>
         <div className='container-local'>
-          <h3>Sesc/Teresópolis</h3>
+          <h3>Paradise/Teresópolis</h3>
+          <button className='botaoComprar'>Comprar Ingresso</button>
         </div>
       </div>
 

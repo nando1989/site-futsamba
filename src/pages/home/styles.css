@@ -43,7 +43,7 @@
 }
 /* Menu sanduiche */
 
-@media (max-width: 768px) {
+@media (max-width: 968px) {
  
   .img-logo {
     width: 100%;
@@ -58,7 +58,7 @@
     
   }
   .logo {
-    width: 95%;
+    width: 87%;
     height: 147px;
     padding-left: 20px;
     padding-top: 10px;

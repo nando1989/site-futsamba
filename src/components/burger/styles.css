@@ -40,8 +40,8 @@ nav{
 
 .menu {
   width: 300px;
-  height: 30vh; 
-  background-color: rgb(209, 207, 204);
+  height: 20vh; 
+  background-color:  rgb(255, 202, 102);
   top: 10;
   z-index: -1;
   margin-top: 20px;
@@ -51,7 +51,7 @@ nav{
 }
 
 .list {
-  color:#44280d;
+  color:#000000;
   display:flex;
   font-size: 45px;
   text-decoration: none;
@@ -63,9 +63,17 @@ nav{
     list-style-type: none;
   }
   
- }
+}
 
-/* ------------- sliding menu ------------------ */
+.list:hover {
+background-color: red;
+color: white;  
+}
+
+
+
+
+ /* ------------- sliding menu ------------------ */
 .hidden {
   display: none;
   
@@ -124,6 +132,11 @@ nav{
     
    }
 
+   .list:hover {
+    background-color: red;
+    color: white;  
+    }
+
    .burger-menu {
     height: 100%;
     width: 3em;
@@ -138,7 +151,7 @@ nav{
   .menu {
     width: 100%;
     height: 25vh;
-    background-color: rgb(209, 207, 204);
+    background-color: rgb(206, 142, 46);
     top: 10;
     z-index: -1;
     margin-right: 20px;

@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  background-color: rgb(209, 207, 204);
+  background-color: rgb(245, 188, 81);
 }
 
 .container-title {
@@ -68,7 +68,7 @@ p{
   .container-bio {
     width: 100%;
     height: 3250px; 
-    background-color: rgb(209, 207, 204);
+    background-color: rgb(245, 188, 81);
    }
   .container-biograph {
     width: 100%;

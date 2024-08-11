@@ -33,10 +33,10 @@ const Burger = () => {
       </nav>
 
       <div className={menu_class}>
-        <Link to="/" className='list'><li>Home</li></Link>
-        <Link to='/Bio' className='list'><li>Biografia</li></Link>
-        <Link to='/Agenda' className='list'><li>Agenda</li></Link>
-        <Link to='/contato' className='list'><li></li>Contato</Link>
+        <Link to="https://drive.google.com/drive/folders/16PfLi2XPMJBD7mrSEQ1iJZbJqRiJdGzo?usp=sharing" className='list'><li>Media Kit</li></Link>
+        <Link to='https://w.app/XNTpyg' className='list'><li>Contrate</li></Link>
+        <Link to='https://www.instagram.com/futsambaoficial/' className='list'><li>Instagram</li></Link>
+        <Link to='https://www.instagram.com/paneladofutsamba/' className='list'><li></li>Panela do Futsamba </Link>
       </div>
     </div>
   )
