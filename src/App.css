@@ -6,5 +6,18 @@ body {
   height: 100%;
   flex-direction: column;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: black;
  
+}
+
+h1{
+  font-size: 50px;
+  color: white;
+  margin: 0;
+  padding: 0;
+} 
+
+p{
+  font-size: 20px;
+  color: white;
 }

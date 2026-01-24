@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  background-color: rgb(245, 188, 81);
+  background-color: rgb(0, 0, 0);
 }
 
 .container-title {
@@ -34,26 +34,12 @@
   align-items: center;
   flex-direction: column;
   padding: 20px; 
+  color: #ffffff;
 }
 
-
-
-
-h2{
-  color: #44280d;
-  font-size: 25px;
-}
-
-h3{
-  font-size: 20px;
-  color: #44280d;
-}
-
-p{
-  font-size: 30px;
-  color: #44280d;
-  text-align: center; 
-}
+.container-title h1{
+    color: #ffffff;
+  }
 
 .container-cards {
   width: 100%;
@@ -65,10 +51,26 @@ p{
 /* Mobile */
 
 @media (max-width: 768px) {
+  .container-title h1 {
+    color: rgb(247, 247, 247)
+  }
+
+  .titleBio{
+    color: #ffffff;
+  }
+
+  .container-home{
+    width: 100%;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+  }
   .container-bio {
     width: 100%;
-    height: 3250px; 
-    background-color: rgb(245, 188, 81);
+    height: 2900px; 
+    background-color: rgb(0, 0, 0);
    }
   .container-biograph {
     width: 100%;
@@ -76,19 +78,33 @@ p{
   }
   .container-text {
     width: 100%;
-    height: 350px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 20px; 
+    color: white;
+  }
+
+  .container-text p{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
   }
   .container-title {
     width: 100%;
-    height: 100px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 15px;
+    padding: 0;
+    margin-top: 15px;
+  }
+
+  .container-title h1{
+    color: #ffffff;
   }
 
   .title-bio {
@@ -97,12 +113,12 @@ p{
     }
    .container-cards {
     width: 100%;
-    height: 2800px;
+    height: auto;
     flex-direction: column;
     }
   .container-title h1{
     font-size: 30px;
-    color: #020202;
+    color: #ffffff;
   }
   p {
     font-size: 20px;

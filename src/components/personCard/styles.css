@@ -1,21 +1,31 @@
 .img-container{
   width: 90%px;
-  height: 500px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
   
   
   }
   .img-person {
     width: 280px;
-    height: 420px;
+    height: 275px;
     border-radius: 30px;
   }
   
-  .img-container h3 {
-     font-size: 20px;
+  .img-container h2 {
+     font-size: 25px;
      width: 100%;
+     color: white;
+     text-align: center;
+   }
+
+   .img-container h3 {
+    font-size: 16px;
+    width: 100%;
+    color: white;
    }
 
  

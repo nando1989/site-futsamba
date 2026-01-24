@@ -34,9 +34,9 @@ const Burger = () => {
 
       <div className={menu_class}>
         <Link to="https://drive.google.com/drive/folders/16PfLi2XPMJBD7mrSEQ1iJZbJqRiJdGzo?usp=sharing" className='list'><li>Media Kit</li></Link>
-        <Link to='https://w.app/XNTpyg' className='list'><li>Contrate</li></Link>
-        <Link to='https://www.instagram.com/futsambaoficial/' className='list'><li>Instagram</li></Link>
-        <Link to='https://www.instagram.com/paneladofutsamba/' className='list'><li></li>Panela do Futsamba </Link>
+        <Link to='https://wa.me/5521998687609?text=OL%C3%81!' className='list'><li>Contrate</li></Link>
+        <Link to='https://drive.google.com/drive/folders/1br0ur3mPxbNJEobj-_IVaMLxQR4V-V53?usp=sharing' className='list'><li>Fotos</li></Link>
+
       </div>
     </div>
   )

@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import './styles.css'
-import Futsamba from './images/futsamba-103.png'
-import Logo from './images/logoFut.png'
+import Logo from '../../assets/img/nossalogo.webp'
 import Burger from '../../components/burger'
 import Bio from '../biografia'
 import Agenda from '../agenda'
@@ -18,9 +17,6 @@ const Home = () => {
           <img className='logo' src={Logo} alt='logo'/>
         </div>
 
-        <div className='img-home'>
-          <img className='home' src={Futsamba} alt='grupo'/>
-        </div>
       </div >
       <Bio/>
       <Agenda/>

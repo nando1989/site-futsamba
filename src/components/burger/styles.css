@@ -19,7 +19,6 @@ nav{
 
 .burger-menu {
   height: 100%;
-  width: 4em;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -40,7 +39,7 @@ nav{
 
 .menu {
   width: 300px;
-  height: 20vh; 
+  height: auto; 
   background-color:  rgb(255, 202, 102);
   top: 10;
   z-index: -1;
@@ -51,7 +50,7 @@ nav{
 }
 
 .list {
-  color:#000000;
+  color:#c21e1e;
   display:flex;
   font-size: 45px;
   text-decoration: none;
@@ -73,7 +72,6 @@ color: white;
 
 
 
- /* ------------- sliding menu ------------------ */
 .hidden {
   display: none;
   
@@ -86,9 +84,6 @@ color: white;
   
   
 }
-
-/* ----- animations--------- */
-/* clicked */
 .burger-bar.clicked:nth-child(1){
   transform: rotate(45deg) translate(0.75em, 1.25em);
   transition: ease-out 0.5s;
@@ -118,7 +113,8 @@ color: white;
 }
 @media (max-width: 768px){
   .list {
-    color:#42270d;
+    color:#fffb14;
+    margin-bottom: ;
     border-right: 2px solid white; 
     display:flex;
     font-size: 30px;
@@ -133,7 +129,7 @@ color: white;
    }
 
    .list:hover {
-    background-color: red;
+    background-color: rgb(168, 0, 0);
     color: white;  
     }
 
@@ -150,8 +146,8 @@ color: white;
   }
   .menu {
     width: 100%;
-    height: 25vh;
-    background-color: rgb(245, 188, 81);
+    height: auto;
+    background-color: rgb(145, 0, 0);
     top: 10;
     z-index: -1;
     margin-right: 20px;
